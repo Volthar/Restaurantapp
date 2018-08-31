@@ -12,18 +12,17 @@ public class CalificarActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calificar);
     }
-        void calificarServicio(View v) {
 
-            Intent intencion = new Intent(this, CalificarServicioActivity.class);
-            startActivity(intencion);
+    void calificarServicio(View v) {
 
-        }
-        void calificarPlato(View v) {
-
-            Intent intencion = new Intent(this, CalificarPlatoActivity.class);
-            startActivity(intencion);
-
-        }
-
+        Intent intencion = new Intent(this, CalificarServicioActivity.class);
+        startActivity(intencion);
     }
+
+    void calificarPlato(View v) {
+
+        Intent intencion = new Intent(this, CalificarPlatoActivity.class);
+        startActivity(intencion);
+    }
+}
 
