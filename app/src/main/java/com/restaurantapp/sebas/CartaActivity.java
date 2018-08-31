@@ -20,7 +20,7 @@ public class CartaActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_carta);
 
-        lista = (ListView) findViewById(android.R.id.list);
+        lista = (ListView) findViewById(R.id.Lista);
 
         ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, productos);
 
