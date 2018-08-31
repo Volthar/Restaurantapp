@@ -8,7 +8,12 @@ import android.widget.ListView;
 
 public class CartaActivity extends Activity {
 
+    ListView lista;
+
+
     String [] productos = new String[] {"Entradas", "Platos Fuertes", "Bebidas", "Postres"};
+
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
