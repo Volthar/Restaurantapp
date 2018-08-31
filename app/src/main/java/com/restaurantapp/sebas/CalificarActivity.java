@@ -11,14 +11,14 @@ public class CalificarActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calificar);
-
-        void calificarServicio(View view) {
+    }
+        void calificarServicio(View v) {
 
             Intent intencion = new Intent(this, CalificarServicioActivity.class);
             startActivity(intencion);
 
         }
-        void calificarPlato(View view) {
+        void calificarPlato(View v) {
 
             Intent intencion = new Intent(this, CalificarPlatoActivity.class);
             startActivity(intencion);
@@ -26,4 +26,4 @@ public class CalificarActivity extends Activity {
         }
 
     }
-}
+
