@@ -34,7 +34,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyB2HMA9MLr-v9Z_sHxUDoQzZQTPtW27eBs"/>
+            android:value="AIzaSyB2HMA9MLr-v9Z_sHxUDoQzZQTPtW27eBs" />
 
         <activity
             android:name=".MapsActivity"
@@ -45,7 +45,9 @@
         <activity android:name=".BebidasActivity" />
         <activity android:name=".PostresActivity" />
         <activity android:name=".ReservaActivity" />
-        <activity android:name=".CalificarActivity"></activity>
+        <activity android:name=".CalificarActivity" />
+        <activity android:name=".CalificarServicioActivity" />
+        <activity android:name=".CalificarPlatoActivity"></activity>
     </application>
 
 </manifest>

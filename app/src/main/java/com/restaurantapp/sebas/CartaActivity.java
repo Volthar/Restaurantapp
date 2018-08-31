@@ -13,16 +13,19 @@ public class CartaActivity extends Activity {
 
     String [] productos = new String[] {"Entradas", "Platos Fuertes", "Bebidas", "Postres"};
 
-    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_carta);
 
-        ListView lv = findViewById(android.R.id.list);
+        lista = (ListView) findViewById(android.R.id.list);
 
-        ListAdapter la = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, productos);
-        lv.setAdapter(la);
+        ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, productos);
+
+        lista.setAdapter(adaptador);
+        //ListAdapter la = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, productos);
+
     }
 }
